@@ -2,16 +2,16 @@ let story_archivist = null
 let story_author = null
 
 module.exports = {
-  title: "Homestuck Companion Commentary", 
-  summary: "Transcription of the author commentary from the Homestuck books, with archivists' notes from the /r/Homestuck community. ",
-  description: `Credits to Bambosh for the original OCR, Drew Linky and Makin for book page to webcomic page conversion, and GiovanH for modding API implementation.`,
+  title: "Homestuck Commentary",
+  summary: "Adds Andrew Hussie's author commentary from the Homestuck/Problem Sleuth books and some additional notes by fans.",
+  description: "Adds Andrew Hussie's author commentary from the Problem Sleuth and Homestuck (1-6) books, as well as some additional notes by fans. Credits to Bambosh for the original OCR, Makin for proof of concept and original Homestuck Companion browser extension, Drew Linky for book page to webcomic page conversion, and GiovanH for modding API implementation. More information and Github repo available at https://homestuck.net/collection.html. This mod is open source and licensed under the GPLv3.",
 
   author: "/r/homestuck",
   version: 0.1,
 
   footnotes: true,
 
-  computed(api) { 
+  computed(api) {
     store = api.store
 
     // Store defaults

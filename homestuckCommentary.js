@@ -7,7 +7,7 @@ module.exports = {
   description: "Adds Andrew Hussie's author commentary from the Problem Sleuth and Homestuck (1-6) books, as well as some additional notes by fans. Credits to Bambosh for the original OCR, Makin for proof of concept and original Homestuck Companion browser extension, Drew Linky for book page to webcomic page conversion, and GiovanH for modding API implementation. More information and Github repo available at https://homestuck.net/collection.html. This mod is open source and licensed under the GPLv3.",
 
   author: "/r/homestuck",
-  version: 0.1,
+  version: 0.2,
 
   footnotes: true,
 
@@ -9346,7 +9346,7 @@ story_author = {
       "content": "Often there will be several long paragraphs following a very simple command. Sometimes it takes a lot of words to explain exactly why a perfectly reasonable solution won't work."
     }
   ],
-  "000368": [
+  "000370": [
     {
       "content": "I'm not sure what happened to the keys... Gun turning into keys = game feature. Keys disappearing because I forgot to paste them in = game glitch."
     }

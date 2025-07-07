@@ -1,0 +1,24 @@
+name: Create Archive
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Archive
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        path: './'
+        filename: 'tuhc-commentary-0.2.zip'
+
+    - name: Create Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "tuhc-commentary-0.2.zip"
+        tag: "v0.2"
